@@ -10,6 +10,3 @@ Acceptance criteria:
 5.	When page is refreshed the list of saved ToDos should be visible to user.
 6.	When a task is marked done, that task should move to the end of list so that users see undone tasks first. 
 They should also be able to mark a done task as undone. When this happens, the undone task should move back to top of list
-
-
-Hello Shubham
