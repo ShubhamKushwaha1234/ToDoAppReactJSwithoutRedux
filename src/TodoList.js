@@ -45,6 +45,7 @@ class TodoList extends Component {
     render(){
         return (
             <div className = "todoListMain">
+            <div ><h1>TODO APP</h1> </div>
                 <div className = "header">
                 <form onSubmit = {this.addItem}>
                 <input ref={(a)=>this._inputElement = a} placeholder = "enter task"></input>
@@ -53,6 +54,7 @@ class TodoList extends Component {
                 </div>
                 <TodoItems entries={this.state.items}
                 delete = {this.deleteItem}/>
+                <div>This todo app is created by<b> Shubham Kushwaha</b> for Java R&D Corp</div>
             </div>
         );
     }
